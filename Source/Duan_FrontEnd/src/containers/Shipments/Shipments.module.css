@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 90vw;
+  height: 90vh;
+  padding-top: 95px;
+  gap: 20px;
+  padding-right: 70px;
+}
+
+.content {
+    background-color: #ffffff;
+    height: 80%;
+    width: 80%;
+    overflow: auto; /* Kích hoạt thanh cuộn khi nội dung vượt quá */
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+.orderTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.orderTable th{
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.orderTable th {
+  background-color: #ffffff;
+}
+
+.add{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.add button{
+    background-color: transparent;
+    padding: 10px 40px;
+}

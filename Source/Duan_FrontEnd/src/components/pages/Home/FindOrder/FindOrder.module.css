@@ -1,0 +1,232 @@
+.FindOrderContainer {
+  display: flex;
+  justify-content: center; /* Căn giữa nội dung */
+  align-items: center;
+  width: 100%;
+  height: 90vh; /* Chiều cao toàn màn hình */
+}
+
+.findOrderInputContainer {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 630px;
+  padding: 5px;
+  border-radius: 60px;
+}
+
+.findOrderInput input {
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 550px;
+  color: black;
+  place-content: black;
+  border: none;
+  outline: none;
+}
+
+.findOrderSubmit button {
+  background-color: #fcc737;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.findOrderSubmit button:hover {
+  background-color: lightgreen;
+}
+
+/* Overlay background khi hiển thị popup */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Nội dung của popup */
+.popupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 1000px;
+  max-width: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Nút đóng popup */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hiệu ứng xuất hiện */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.container {
+  width: 90%;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 100px;
+  padding: 0 50px;
+}
+
+.content {
+  flex: 1;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #fcc737;
+}
+
+.trackingInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.inputField {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border: none;
+  padding: 8px 20px;
+  outline: none;
+  font-size: 15px;
+}
+
+.trackButton {
+  background-color: #fcc737;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  font-size: 2em;
+  align-items: center;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #f1efef;
+  align-items: center;
+}
+
+.stat {
+  padding: 8px 12px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.stat_center {
+  padding: 8px 12px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.statValue {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.ordertitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orderaddress {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.orderaddress .addressicon {
+  font-size: 50px;
+}
+
+.ordergroup {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.ordercontent{
+  width: 550px;
+}

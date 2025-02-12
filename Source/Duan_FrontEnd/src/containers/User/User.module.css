@@ -1,0 +1,51 @@
+.tableuser {
+  color: #002E50;
+}
+
+.tableuserHeader {
+  text-align: left;
+  border: none;
+  color: #002E50
+}
+
+.tableCell {
+  color: #002E50
+}
+
+.tableRow td {
+  color: #002E50;
+  white-space: nowrap; 
+  overflow: hidden;    
+  text-overflow: ellipsis; 
+}
+
+.tableuser {
+  width: 100%;
+  border-collapse: collapse;
+  color: #002E50;
+}
+
+.tableuser th, td {
+  padding: 10px;
+  text-align: left;
+  color: #002E50;
+  white-space: nowrap; 
+  overflow: hidden;    
+  text-overflow: ellipsis; 
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button{
+  padding: 10px 20px;
+  background-color: #002E50;
+  color: #fcc737;
+  border-radius: 10px;
+  cursor: pointer;
+}
+

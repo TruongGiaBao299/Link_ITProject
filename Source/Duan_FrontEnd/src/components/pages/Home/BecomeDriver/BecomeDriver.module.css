@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  padding-top: 90px;
+  padding-left: 150px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 700px;
+  height: 85vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.personalInfoAddress {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.personalInfo p {
+  font-size: 14px;
+}
+
+.personalInfoInput select {
+  padding: 10px;
+  width: 184px;
+  border: 1px solid #002E50;
+  border-radius: 10px;
+}
+
+.personalInfoSelect select {
+  padding: 10px;
+  width: 565px;
+  border: 1px solid #002E50;
+  border-radius: 10px;
+}
+
+.personalInfoInput input {
+  padding: 10px;
+  width: 540px;
+  border: 1px solid #002E50;
+  border-radius: 10px;
+}
+
+.personalInfoSubmit button {
+  background-color: #fcc737;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.alert {
+  color: red;
+  background-color: lightgray;
+  padding: 20px 120px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.label label {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.containerform{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

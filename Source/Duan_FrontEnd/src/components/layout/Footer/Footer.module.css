@@ -1,0 +1,96 @@
+.footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+.content {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start; 
+  max-width: 960px; 
+  margin: 0 auto;
+}
+  
+.contact {
+  text-align: left;
+}
+ 
+.companyName {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+  
+.address {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+  
+.email {
+  margin-top: 10px;
+}
+  
+.social {
+  text-align: left;
+}
+  
+.connect {
+  margin-bottom: 10px;
+
+}
+.connect p {
+  margin-bottom: 0;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.trackingInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 30px;
+  overflow: hidden;
+
+}
+.inputField {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border: none;
+  padding: 8px 20px;
+  outline: none;
+  font-size: 15px;
+}
+
+.connectContent{
+  padding-top: 0;
+  font-size: 12px;
+}
+
+.icon1 {
+  padding-right: 5px;
+}
+
+.trackButton {
+  color: white;
+  background-color: #002e50;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  font-size: 2em;
+  align-items: center;
+}

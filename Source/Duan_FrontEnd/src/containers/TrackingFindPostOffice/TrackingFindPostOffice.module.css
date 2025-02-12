@@ -1,0 +1,164 @@
+.FindOrderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  width: 90vw;
+  height: 90vh;
+  padding-top: 90px;
+  padding-left: 150px;
+}
+
+.findOrderInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: #ffffff;
+}
+
+.findOrderInput input {
+  padding: 6px;
+  width: 200px;
+}
+
+.findOrderSubmit button {
+  background-color: #002e50;
+  padding: 6px 16px;
+  color: #fcc737;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.findtitle {
+  color: #002e50;
+  font-weight: bold;
+}
+
+.findtopcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.emptyOrderBox {
+  background-color: #d9d9d9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 170px;
+  margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  max-width: 600px;
+  height: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leftContainer {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+}
+
+.ordertitle,
+.ordercontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addressicon {
+  font-size: 20px;
+}
+
+.orderaddress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderStats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statBox {
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 30px;
+  width: 400px;
+  max-width: 400px;
+  color: #002e50;
+  background-color: #ffffff;
+}
+
+.addshipment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+}
+
+.addshipmentimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addshipmentbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addshipmenttitle {
+  color: #002e50;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addshipment {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.addbutton{
+  padding: 10px 20px;
+  color: #fcc737;
+  background-color: #002e50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detailsbutton{
+  color: #002e50;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}

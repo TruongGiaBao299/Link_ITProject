@@ -1,0 +1,96 @@
+.hero {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero_content {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 40px; 
+}
+.hero_left {
+  flex: 1; 
+}
+
+.hero_right { 
+  flex: 1; 
+}
+
+.hero_content h1 {
+  padding-left: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0; 
+}
+
+.hero_content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.exploreButton, .talkButton {
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.exploreButton {
+  background-color: #FCC737;
+  color: black;
+}
+
+.exploreButton:hover {
+  background-color: #FFF574;
+}
+
+.talkButton {
+  background-color: transparent;
+  color: #FCC737;
+  border: 1px solid #FCC737;
+}
+
+.talkButton:hover {
+  color: black;
+  border-color: black;
+}
+
+
+@media (max-width: 768px) {
+  .hero_content {
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+  }
+  .hero_left, .hero_right {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero_content h1 {
+    font-size: 2.5rem;
+  }
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+}
