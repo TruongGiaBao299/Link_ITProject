@@ -1,0 +1,69 @@
+.infobox {
+  border: 1px solid black;
+  width: 230px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.infocontent {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px; 
+  width: 220px;
+  overflow-y: auto; 
+  border: 1px solid black;
+  scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+  -ms-overflow-style: none; /* Ẩn thanh cuộn trên IE/Edge */
+}
+
+.infocontent::-webkit-scrollbar {
+  width: 0px; /* Ẩn thanh cuộn nhưng vẫn cuộn được */
+  height: 0px;
+}
+
+.infocontainer {
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapContainer {
+  display: flex;
+  flex-direction: row;;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtergroup{
+  display: flex;
+  flex-direction: row;
+}
+
+.infobox{
+  width: 220px;
+}
+
+.infobox p{
+  font-size: 13px;
+}
+
+.map {
+  height: 100%; /* Ensure this is enough to display the map */
+  width: 620px; /* Set full width */
+}
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.searchContainer input{
+  padding: 10px;
+  width: 820px;
+}
+
+.FindOrderInput select{
+  padding: 10px;
+  width: 422px;
+}
